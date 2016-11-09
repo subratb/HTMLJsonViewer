@@ -37,3 +37,6 @@ function getString(ele) {
         //if only value
         //create a cell
     }
+var jsonObject = JSON.parse('[{ "UserProfiles": { "old": { "MiddleName": "test", "AddDate": "2016-11-03T15:27:59.013" }, "new": { "MiddleName": "test1", "AddDate": "2016-11-03T16:40:20.6743482-04:00" } } }]');
+var htmltable = getString(jsonObject); 
+console.log(htmltable);
